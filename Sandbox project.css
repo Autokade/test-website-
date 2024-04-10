@@ -1,0 +1,66 @@
+body{
+    font-family: serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Title_one {
+  font-size: 20vw;
+  text-align: center;
+}
+img {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+h1{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 2px solid #333; /* Adjust color and thickness as needed */
+  padding-bottom: 10px; /* Adds spacing between the text and the border */
+  display: inline-block; /* Ensures the border only spans the text width */
+  margin-bottom: 20px; /* Additional spacing from content below */
+
+}
+p{
+    font-family: cursive;
+}
+nav{
+    display: block;
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+a:hover{
+    color: antiquewhite;
+    background-color: burlywood;
+    font-style: italic;
+}
+li a{
+    display: block;
+    text-align:center;
+    padding: 14px 16px;
+}
+.navbar{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Creates three columns of equal width */
+        gap: 20px; /* Adds space between the columns */
+        padding: 20px;
+}
